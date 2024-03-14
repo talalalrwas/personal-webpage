@@ -47,14 +47,18 @@ li {
     font-style: italic;
     font-size: 50px;
     padding: 10px;
+    color: whitesmoke;
 }
 
 nav {
     background-color: #0e0e0e;
 }
 
-#about {
-    margin: 2rem 0 0 calc(1rem + 5px);
+.about-header {
+    margin: 1rem;
+    padding-left: 1rem;
+    background-color: #0e0e0e;
+    color: whitesmoke;
 }
 
 .about-container {

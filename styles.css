@@ -19,7 +19,7 @@ li {
 
 .nav-bar {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -29,7 +29,7 @@ li {
 }
 
 .nav-spacer {
-    width: 56%;
+    width: 30vw;
 }
 
 .nav-item > a {
@@ -45,7 +45,7 @@ li {
     font-family: "Cormorant Garamond", serif;
     font-weight: 700;
     font-style: italic;
-    font-size: 50px;
+    font-size: 2.5rem;
     padding: 10px;
     color: whitesmoke;
 }
@@ -65,10 +65,16 @@ nav {
     margin: 0 1rem 0 1rem;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .about-item {
     margin: 5px;
+}
+
+p.about-item {
+    /* width: 50rem; */
+    text-wrap: balance;
 }
 
 p.about-item::first-letter {
@@ -86,7 +92,7 @@ p.about-item::first-letter {
 
 .prt-img {
     width: auto;
-    height: 400px;
+    height: 40vh;
     margin: 0;
 }
 
@@ -145,4 +151,13 @@ footer {
 
 footer > p {
     color: whitesmoke;
+}
+
+@media only screen and (max-width: 600px) {
+    .about-container {
+        flex-direction: column;
+    }
+    .spln {
+        display: none;
+    }
 }

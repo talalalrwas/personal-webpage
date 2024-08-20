@@ -1,12 +1,18 @@
 :root {
-    --background-color: #333;
-    --text-color: white;
+    --background-color2: #333;
+    --background-color: #212529;
+    --text-color: #f8f9fa;
     --link-color: white;
     --link-hover-color: #ddd;
 }
 
+* {
+    color: var(--text-color);
+}
+
 body {
     font-family: Arial, sans-serif;
+    background-color: var(--background-color2);
     margin: 0;
     padding: 0;
 }
@@ -35,7 +41,7 @@ header {
 }
 
 .navbar .logo > a {
-    font-size: larger;
+    font-size: x-large;
     font-weight: bold;
 }
 
@@ -58,6 +64,10 @@ header {
 .projects {
     margin-top: 40px;
 }
+.projects img {
+    width: 75vmin;
+}
+
 footer {
     background-color: var(--background-color);
     color: var(--text-color);
@@ -70,7 +80,7 @@ footer {
         flex-direction: column;
     }
     .navbar a {
-        margin: 5px 0;
+        margin: 10px 0;
     }
     .bio {
         flex-direction: column;

@@ -1,68 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script data-goatcounter="https://personal-website-talalalrwas.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-    <title>Personal Webpage</title>
+    
+    <title>Talal Alrwas</title>
+    
+    <script data-goatcounter="https://personal-website-talalalrwas.goatcounter.com/count" async
+        src="//gc.zgo.at/count.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300..700&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="css/styles.css">
+    <script src=" https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/js/all.min.js "></script>
+    <link href=" https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/fontawesome.min.css "
+        rel="stylesheet">
 </head>
+
 <body>
-
-<header>
-    <div class="navbar">
-        <div class="logo">
-            <a href="#">Talal Alrwas</a>
+    <header>
+        <div class="container header-flex">
+            <div class="logo"><a href="#">mtmr</a></div>
+            <nav class="nav-links">
+                <a href="#home">home</a>
+                <a href="#about">about</a>
+                <a href="#experience">cv</a>
+                <a href="#projects">work</a>
+                <a href="#contact">contact</a>
+            </nav>
         </div>
-        <nav>
-            <a href="#contact">Contact</a>
-        </nav>
-    </div>
-</header>
+    </header>
 
-<div class="content">
-    <section class="bio">
-        <img src="img/me.png" alt="a picture of myself">
-        <div>
-            <p>Hello 👋 <br/>
-                I'm Talal, I'm 17 years old, just finished Highschool and looking forward to get into IT.
-                I like Linux, Open-source and C programming; i'm a Newbie though, please have patience 👍
-                If you have any questions, you're free to hit me up.
-            </p>
+    <main>
+        <section id="home" class="hero container">
+            <div class="hero-content">
+                <div class="hero-name">Talal Alrwas</div>
+                <div class="hero-tagline"><span class="typed-base">Backend</span></div>
+                <p class="hero-desc">DevOps/Backend generalist. I build it, ship it, and keep it running.</p>
+                <div class="hero-actions">
+                    <a href="#" class="btn btn-primary"><i class="fas fa-file-pdf"></i> resume (pdf)</a>
+                    <a href="#contact" class="btn btn-outline"><i class="fas fa-paper-plane"></i> contact</a>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="about" class="about-skills container">
+            <h2>about &amp; tools</h2>
+            <div class="about-text">
+               I write backend code and build the infrastructure to run it. 2+ years of making software resilient, automated, and actually deployable.            </div>
+            <div class="skill-tags">
+            </div>
+        </section>
+
+        <section id="projects" class="projects container">
+            <h2>selected projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon"><i class="fas fa-cubes"></i></div>
+                    <div class="project-title">voxel flow</div>
+                    <div class="project-desc">Real‑time 3d configurator for product design. Built with Three.js and
+                        React.</div>
+                    <div class="project-tech">
+                        <span class="tech-tag">three</span>
+                        <span class="tech-tag">webgl</span>
+                        <span class="tech-tag">react</span>
+                        <span class="tech-tag">r3f</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon"><i class="fas fa-chart-simple"></i></div>
+                    <div class="project-title">pulse dashboard</div>
+                    <div class="project-desc">Open‑source analytics for indie makers. Lightweight, privacy‑first, with
+                        live widgets.</div>
+                    <div class="project-tech">
+                        <span class="tech-tag">vue</span>
+                        <span class="tech-tag">d3</span>
+                        <span class="tech-tag">node</span>
+                        <span class="tech-tag">socket.io</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon"><i class="fas fa-leaf"></i></div>
+                    <div class="project-title">almanac</div>
+                    <div class="project-desc">Personal knowledge base with markdown, bi‑directional links and a minimal,
+                        serene interface.</div>
+                    <div class="project-tech">
+                        <span class="tech-tag">next</span>
+                        <span class="tech-tag">mdx</span>
+                        <span class="tech-tag">tailwind</span>
+                        <span class="tech-tag">vercel</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon"><i class="fas fa-cloud-moon"></i></div>
+                    <div class="project-title">weather type</div>
+                    <div class="project-desc">Typography‑focused weather forecast with poetic descriptions &amp;
+                        variable
+                        fonts.</div>
+                    <div class="project-tech">
+                        <span class="tech-tag">svelte</span>
+                        <span class="tech-tag">open‑meteo</span>
+                        <span class="tech-tag">css vars</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact container">
+            <h2>connect</h2><br/>
+            <a href="mailto:talalalrwas@keemail.me" class="contact-email">talalalrwas@keemail.me</a>
+            <div class="social-links">
+                <a href="https://github.com/talalalrwas/" target="_blank" aria-label="github"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/talal-alrwas" target="_blank" aria-label="linkedin"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://x.com/AlrwasTalal" target="_blank" aria-label="x / twitter"><i class="fab fa-x-twitter"></i></a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 Talal Alrwas – built with html/css + a touch of <i class="fas fa-code"
+                    style="color: var(--accent);"></i></p>
         </div>
-    </section>
+    </footer>
 
-    <section class="projects">
-        <h2>Projects</h2>
-        <h3><a href="https://github.com/talalalrwas/bash-web-monitor">Bash web monitor</a></h3>
-        <img src="./img/bwm.png" alt="an image showing the usage of bash-web-monitor">
-        <p>Monitor websites with a simple bash script</p>
-    </section>
 
-    <section id="contact" class="contact">
-        <h2>Contact</h2>
-        <a href="mailto:talalalrwas@keemail.me">
-            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
-            <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
-          </svg> E-mail</a>
-        <br>
-        <br>
-        <a href="http://mastodon.social/@talalalrwas">
-            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-mastodon" viewBox="0 0 16 16">
-            <path d="M11.19 12.195c2.016-.24 3.77-1.475 3.99-2.603.348-1.778.32-4.339.32-4.339 0-3.47-2.286-4.488-2.286-4.488C12.062.238 10.083.017 8.027 0h-.05C5.92.017 3.942.238 2.79.765c0 0-2.285 1.017-2.285 4.488l-.002.662c-.004.64-.007 1.35.011 2.091.083 3.394.626 6.74 3.78 7.57 1.454.383 2.703.463 3.709.408 1.823-.1 2.847-.647 2.847-.647l-.06-1.317s-1.303.41-2.767.36c-1.45-.05-2.98-.156-3.215-1.928a4 4 0 0 1-.033-.496s1.424.346 3.228.428c1.103.05 2.137-.064 3.188-.189zm1.613-2.47H11.13v-4.08c0-.859-.364-1.295-1.091-1.295-.804 0-1.207.517-1.207 1.541v2.233H7.168V5.89c0-1.024-.403-1.541-1.207-1.541-.727 0-1.091.436-1.091 1.296v4.079H3.197V5.522q0-1.288.66-2.046c.456-.505 1.052-.764 1.793-.764.856 0 1.504.328 1.933.983L8 4.39l.417-.695c.429-.655 1.077-.983 1.934-.983.74 0 1.336.259 1.791.764q.662.757.661 2.046z"/>
-          </svg> Mastadon</a>
-        <br>
-        <br>
-        <a href="https://github.com/talalalrwas">
-            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
-          </svg> Github</a>
-    </section>
-</div>
-
-<footer>
-    <p>&copy; 2024 Talal Alrwas. All rights reserved.</p>
-</footer>
+    <script src="app.js"></script>
 
 </body>
+
 </html>
